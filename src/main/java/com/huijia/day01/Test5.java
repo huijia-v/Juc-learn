@@ -27,7 +27,6 @@ public class Test5 {
             sum += i;
         }
         Long endTime = System.currentTimeMillis();
-
         return sum + "没有使用多线程的方法" + ",共耗时：" + (endTime - startTime);
     }
 
